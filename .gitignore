@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+instance/ppa_portal.db
+
+# Celery
+celerybeat-schedule*
+
+# Executables
+*.exe
+MailHog.exe
+
+# User Uploads / Generated Files
+frontend/src/static/resumes/*
+!frontend/src/static/resumes/.gitkeep
+frontend/src/static/sent_reminders/*
+!frontend/src/static/sent_reminders/.gitkeep
+
+# OS generated files
+.DS_Store
+Thumbs.db
